@@ -17,10 +17,9 @@
           'conditions': [
             [ 'driver=="libusb"', {
               'sources': [ 'hidapi/libusb/hid.c' ],
-               'include_dirs+': [
-                  '../../staging/usr/include/libusb-1.0/'
-               ]
-          ]
+              'include_dirs+': [
+                '../../usr/include/libusb-1.0/'
+              ]
             }],
             [ 'driver=="hidraw"', {
               'sources': [ 'hidapi/linux/hid.c' ]
