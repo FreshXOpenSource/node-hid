@@ -16,7 +16,7 @@
         [ 'OS=="linux"', {
           'conditions': [
             [ 'driver=="libusb"', {
-              'sources': [ 'hidapi/libusb/hid.c' ]
+              'sources': [ 'hidapi/libusb/hid.c' ],
                'include_dirs+': [
                   '../../staging/usr/include/libusb-1.0/'
                ]
