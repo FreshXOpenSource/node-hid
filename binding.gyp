@@ -18,7 +18,7 @@
             [ 'driver=="libusb"', {
               'sources': [ 'hidapi/libusb/hid.c' ],
               'include_dirs+': [
-                '../../usr/include/libusb-1.0/'
+                '${STAGING_DIR}/usr/include/libusb-1.0/'
               ]
             }],
             [ 'driver=="hidraw"', {
